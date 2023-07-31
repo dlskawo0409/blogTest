@@ -70,6 +70,15 @@ class BlogApiControllerTest {
         assertThat(articles.get(0).getContent()).isEqualTo(content);
     }
 
+    @DisplayName("findAllArticles : 블로그 글 목록 조회에 성공한다.")
+    @Test
+    public void findAllArticles() throws Exception{
+        //given
+        final String url = "/api/article";
+        final String title = "title";
+        final String content = "content";
+    }
+
 
 
 }
